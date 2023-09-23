@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Tricks</title>
+    <style>
+      .parent_div {
+        width: 500px;
+        height: 500px;
+        background-color: beige;
+        position: relative;
+      }
+      .parent_child {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Using Position and Transform property -->
+    <div class="parent_div">
+      <div class="parent_child"></div>
+    </div>
+  </body>
+</html>
